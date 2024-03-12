@@ -1,0 +1,118 @@
+body{
+    /* background-image: url("ba.png");
+    background-size: cover; */
+    background-image:url("images.jpg");
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:100px;
+
+}
+
+.main{
+    background-color: rgb(46, 11, 149);
+    width:900px;
+    height:600px;
+    border-radius:29px 29px 29px 29px;
+    z-index:-1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.036), 0 6px 20px 0 rgba(0, 0, 0, 0.071);
+    display:flex;
+    flex-direction:row;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    margin-left:20px;
+}
+.nav-item {
+    font-size: 21px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-left: 89px;
+}
+.text{
+    font-size:30px;
+    font-family:monospace;
+    color:rgb(152, 2, 160);
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top:50px;
+
+}
+.text2{
+    font-size:18px;
+    font-family:sans-serif;
+    color:rgb(255, 255, 255);
+    font-weight: 540;
+    margin-left: 10px;
+    margin-top:15px;
+
+}
+.inputs {
+    width: 218px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.dataf{
+    width:200px;
+    margin:4px;
+
+}
+.dataf{
+    font-weight:500;
+    font-size:small;
+    width:150px;
+    height:15px;
+    padding:10px;
+    margin:10px 0;
+    text-align:left;
+    border-radius: 8px;
+    background-color: #4f3ba9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.036), 0 6px 20px 0 rgba(0, 0, 0, 0.071);
+    border: 0.1px solid rgba(86, 86, 86, 0.152);
+    cursor: pointer;
+}
+.message{
+    
+    font-weight:500;
+    font-size:small;
+    width:370px;
+    height:134px;
+    padding:10px;
+   
+    text-align:left;
+    border-radius: 8px;
+    background-color: #4f3ba9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.036), 0 6px 20px 0 rgba(0, 0, 0, 0.071);
+    border: 0.1px solid rgba(86, 86, 86, 0.152);
+    cursor: pointer;
+    color:rgb(145, 145, 145);
+    margin-top:100px;
+    margin-left:10px;
+}
+.submit{
+    font-weight:500;
+    font-size:18px;
+    width:150px;
+    height:45px;
+    padding:10px;
+    margin:10px;
+    margin-top:40px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:left;
+    border-radius: 8px;
+    background-color: #9200ba;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.036), 0 6px 20px 0 rgba(0, 0, 0, 0.071);
+    border: 0.1px solid rgba(86, 86, 86, 0.152);
+    cursor: pointer;
+    color:white;
+
+}
